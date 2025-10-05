@@ -1,0 +1,91 @@
+.navbar {
+  width: 100%;
+  background-color: #0d6efd;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #0d6efd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.logout-btn {
+  background-color: #dc3545; /* red */
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #0077b6; /* blue circle */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10%;
+  text-decoration: none; /* remove underline from Link */
+}
+.profile-icon a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links li {
+  display: inline-block;
+  margin-right: 15px;
+}

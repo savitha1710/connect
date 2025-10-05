@@ -1,0 +1,19 @@
+/* Make the page container a flex column to push footer to bottom */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Make the main content grow so footer is at bottom */
+.hero {
+  flex: 1; /* grows to fill space */
+}
+
+/* Footer */
+.footer {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
