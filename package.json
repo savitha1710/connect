@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "college-connect-frontend",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +38,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "college-connect-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.0",
+    "multer": "^2.0.2"
+>>>>>>> dc341774ee9288cbb70e38ebd6527ebc81db1614
   }
 }
