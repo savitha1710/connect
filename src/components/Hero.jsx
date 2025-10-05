@@ -10,5 +10,5 @@ const Hero = () => {
     </section>
   );
 };
-
+<section className="hero" style={{ background: 'linear-gradient(135deg, #3b82f6 0%, #2563eb 50%, #1e40af 100%)' }}></section>
 export default Hero;
